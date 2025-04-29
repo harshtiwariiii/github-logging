@@ -20,6 +20,6 @@ jobs:
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: "Python CI Failed"
-        to: harshtiwariii01012003@gmail.com
+        to: harshtiwariii01032004@gmail.com
         from: GitHub Actions
         body: "The Python CI workflow failed. View logs at: ${{ github.event.workflow_run.html_url }}"
