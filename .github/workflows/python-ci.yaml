@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    retention-days: 14  # Logs will be retained for 14 days
+
     
     steps:
     - name: Checkout code
