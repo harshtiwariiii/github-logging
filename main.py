@@ -22,7 +22,7 @@ logger.addHandler(mail_handler)
 def main():
     logging.info("Script started.")
     try:
-        x = 10 / 0  # This will raise ZeroDivisionError
+        x = 10 / 10  # This will raise ZeroDivisionError
     except ZeroDivisionError as e:
         logging.error(f"Error occurred: {e}")
         raise
